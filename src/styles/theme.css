@@ -1,0 +1,68 @@
+@layer base {
+  :root,
+  [data-theme="light"] {
+    --background: #f8fafc;
+    --foreground: #0f172a;
+    --primary: #7c3aed;
+    --primary-foreground: #ffffff;
+    --muted-primary: rgba(124, 58, 237, 0.12);
+    --muted-foreground: #64748b;
+    --text: #000000;
+    --card: #ffffff;
+    --border: #e2e8f0;
+    --input: #ffffff;
+    --secondary-button: #f1f5f9;
+    --accent: #ec4899;
+    --success: #10b981;
+    --skeleton-base: #e2e8f0;
+    --skeleton-highlight: #cbd5e1;
+    --highlight-bg: rgba(59, 7, 100, 0.2);
+    --highlight-border: rgba(156, 39, 176, 0.2);
+  }
+
+  [data-theme="dark"] {
+    --background: #09070f;
+    --foreground: #f8fafc;
+    --primary: #8b5cf6;
+    --primary-foreground: #ffffff;
+    --muted-primary: rgba(139, 92, 246, 0.18);
+    --muted-foreground: #94a3b8;
+    --text: #fffff;
+    --card: #13111c;
+    --border: rgba(255, 255, 255, 0.08);
+    --input: #181524;
+    --secondary-button: #1e1b2e;
+    --accent: #f472b6;
+    --success: #34d399;
+    --skeleton-base: #1a1726;
+    --skeleton-highlight: #28243a;
+    --highlight-bg: rgba(59, 7, 100, 0.2);
+    --highlight-border: rgba(156, 39, 176, 0.2);
+  }
+}
+
+@theme {
+  --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif;
+
+  /* Mapeamento de Cores do Tema */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted-primary: var(--muted-primary);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-text: var(--text);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-secondary-button: var(--secondary-button);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+
+  /* Utilitários estáticos ou específicos */
+  --color-red-500: #ef4444;
+  --color-skeleton-base: var(--skeleton-base);
+  --color-skeleton-highlight: var(--skeleton-highlight);
+  --color-highlight-bg: var(--highlight-bg);
+  --color-highlight-border: var(--highlight-border);
+}
