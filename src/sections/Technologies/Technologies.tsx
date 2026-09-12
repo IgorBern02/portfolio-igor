@@ -1,12 +1,12 @@
-import { Card } from "../../components/shared/Card";
+// import { Card } from "../../components/shared/Card";
 import { TechnologiesBio } from "./TechnologiesBio";
 import { TechnologiesHighlights } from "./TechnologiesHighlights";
-import {
-  CiDatabase,
-  FaLaptopCode,
-  FaTools,
-  FaFigma,
-} from "../../components/ui/icons";
+// import {
+//   CiDatabase,
+//   FaLaptopCode,
+//   FaTools,
+//   FaFigma,
+// } from "../../components/ui/icons";
 
 export const Technologies: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ export const Technologies: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center p-2">
         <div className="lg:col-span-7">
           <TechnologiesBio />
-          <Card icon={FaLaptopCode}>
+          {/* <Card icon={FaLaptopCode}>
             <span className={"block text-xs text-text"}>
               Desenvolvimento Web
             </span>
@@ -55,7 +55,7 @@ export const Technologies: React.FC = () => {
               Criação de interfaces e protótipos com Figma, explorando design de
               interação e experiência do usuário.
             </span>
-          </Card>
+          </Card> */}
         </div>
 
         <div className="lg:col-span-5">

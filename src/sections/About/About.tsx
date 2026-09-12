@@ -22,8 +22,6 @@ export function About() {
           <AboutHighlights />
 
           <div className="grid grid-cols-2 gap-4">
-            {/* <Card icon={FaGraduationCap} title="Formação" subtitle="Análise" />
-            <Card icon={FaCode} title="Foco Atual" subtitle="React & Node.js" /> */}
             <Card icon={FaGraduationCap}>
               <span className={`block text-xs text-muted-foreground`}>
                 Formação
