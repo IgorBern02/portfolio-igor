@@ -1,8 +1,12 @@
 import { Card } from "../../components/shared/Card";
 import { TechnologiesBio } from "./TechnologiesBio";
 import { TechnologiesHighlights } from "./TechnologiesHighlights";
-import { FaGraduationCap } from "../../components/ui/icons";
-import { FaLaptop } from "react-icons/fa";
+import {
+  CiDatabase,
+  FaLaptopCode,
+  FaTools,
+  FaFigma,
+} from "../../components/ui/icons";
 
 export const Technologies: React.FC = () => {
   return (
@@ -20,25 +24,36 @@ export const Technologies: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center p-2">
         <div className="lg:col-span-7">
           <TechnologiesBio />
-          <Card icon={FaGraduationCap}>
-            <span className={`block text-xs text-text`}>Formação</span>
-            <span className={`text-sm font-semibold text-muted-foreground`}>
-              Análise
-            </span>
-          </Card>
-          <Card icon={FaLaptop}>
-            <span className={`block text-xs text-text`}>
+          <Card icon={FaLaptopCode}>
+            <span className={"block text-xs text-text"}>
               Desenvolvimento Web
             </span>
-            <span className={`text-sm font-semibold text-muted-foreground`}>
+            <span className={"text-sm font-semibold text-muted-foreground"}>
               Interfaces modernas, escaláveis e com foco na experiência do
               usuário.
             </span>
           </Card>
-          <Card icon={FaGraduationCap}>
-            <span className={`block text-xs text-text`}>Formação</span>
-            <span className={`text-sm font-semibold text-muted-foreground`}>
-              Análise
+          <Card icon={CiDatabase}>
+            <span className={"block text-xs text-text"}>APIs e Backend</span>
+            <span className={"text-sm font-semibold text-muted-foreground"}>
+              Integrações e consumo de APIs, com Node.js, Express e bancos de
+              dados.
+            </span>
+          </Card>
+          <Card icon={FaTools}>
+            <span className={"block text-xs text-text"}>Versionamento</span>
+            <span className={"text-sm font-semibold text-muted-foreground"}>
+              Controle de versão com Git, colaboração e organização com Git e
+              GitHub.
+            </span>
+          </Card>
+          <Card icon={FaFigma}>
+            <span className={"block text-xs text-text"}>
+              Design e Prototipação
+            </span>
+            <span className={"text-sm font-semibold text-muted-foreground"}>
+              Criação de interfaces e protótipos com Figma, explorando design de
+              interação e experiência do usuário.
             </span>
           </Card>
         </div>

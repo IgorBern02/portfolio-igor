@@ -30,6 +30,14 @@ export function About() {
               </span>
               <span className={`text-sm font-semibold text-text`}>Análise</span>
             </Card>
+            <Card icon={FaGraduationCap}>
+              <span className={`block text-xs text-muted-foreground`}>
+                Foco Atual
+              </span>
+              <span className={`text-sm font-semibold text-text`}>
+                React & Node.js
+              </span>
+            </Card>
           </div>
         </div>
       </div>

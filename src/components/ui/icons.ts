@@ -13,6 +13,7 @@ import {
   FaGithub,
   FaLaptopCode,
   FaTools,
+  FaFigma,
 } from "react-icons/fa";
 
 import { BsTypescript } from "react-icons/bs";
@@ -38,6 +39,7 @@ export {
   FaGithub,
   FaLaptopCode,
   FaTools,
+  FaFigma,
   BsTypescript,
   RiTailwindCssFill,
   SiMongodb,
