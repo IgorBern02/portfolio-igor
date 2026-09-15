@@ -1,9 +1,6 @@
-import { FaGraduationCap } from "../../components/ui/icons";
-import { Card } from "../../components/shared/Card";
-
 import { AboutHighlights } from "./AboutHighlights";
-
 import { BioAbout } from "./AboutBio";
+import { AboutCards } from "./AboutCards";
 
 export function About() {
   return (
@@ -21,22 +18,7 @@ export function About() {
         <div className="lg:col-span-5 space-y-4">
           <AboutHighlights />
 
-          <div className="grid grid-cols-2 gap-4">
-            <Card icon={FaGraduationCap}>
-              <span className={`block text-xs text-muted-foreground`}>
-                Formação
-              </span>
-              <span className={`text-sm font-semibold text-text`}>Análise</span>
-            </Card>
-            <Card icon={FaGraduationCap}>
-              <span className={`block text-xs text-muted-foreground`}>
-                Foco Atual
-              </span>
-              <span className={`text-sm font-semibold text-text`}>
-                React & Node.js
-              </span>
-            </Card>
-          </div>
+          <AboutCards />
         </div>
       </div>
     </section>
