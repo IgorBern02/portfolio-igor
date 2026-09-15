@@ -14,6 +14,8 @@ import {
   FaLaptopCode,
   FaTools,
   FaFigma,
+  FaExternalLinkAlt,
+  FaLinkedinIn,
 } from "react-icons/fa";
 
 import { BsTypescript } from "react-icons/bs";
@@ -22,7 +24,9 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 import { SiLucide, SiMongodb } from "react-icons/si";
 
-import { CiDatabase } from "react-icons/ci";
+import { CiDatabase, CiMail, CiMapPin } from "react-icons/ci";
+
+import { GoArrowUpRight } from "react-icons/go";
 
 export {
   FaMoon,
@@ -40,9 +44,14 @@ export {
   FaLaptopCode,
   FaTools,
   FaFigma,
+  FaLinkedinIn,
+  FaExternalLinkAlt,
   BsTypescript,
   RiTailwindCssFill,
   SiMongodb,
   SiLucide,
   CiDatabase,
+  CiMail,
+  CiMapPin,
+  GoArrowUpRight,
 };
